@@ -1,0 +1,9 @@
+int main() =
+{
+    v() = (5)
+
+    during v() <= 10
+        printf("{v}/n");
+        v() += 1
+    return 0;
+}

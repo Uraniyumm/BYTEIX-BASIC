@@ -1,0 +1,16 @@
+int main() =
+{
+    {
+        age() = (24)
+            var_access: ("main(child),")
+            printf("Age: {age}/n");
+            return 0;
+    }
+}
+
+int main(child) =
+{
+    age() += 1;
+    printf("Age: {age}/n");
+    return 0;
+}

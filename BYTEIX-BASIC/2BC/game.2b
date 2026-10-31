@@ -1,0 +1,22 @@
+#Introduce <omni-engine>  ~! Adds the Omni-Engine library.
+
+int player_data() =
+{
+    health = (100)
+    player_damage_level = (16)
+    return 0; ~! End of first integer.
+}
+
+int player_data(child) =
+{
+    omni_init(800, 600, "Game Example");
+    during window_true;
+    omni_begin_drawing();
+    omni_draw_text(const char {health}, int 100, int 5, int 25, purple); ~! Displays the player's health
+    
+    
+    omni_end_drawing();
+    window_should_close();
+    return 0; ~! End of program and final integer.
+}
+

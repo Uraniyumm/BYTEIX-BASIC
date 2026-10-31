@@ -1,0 +1,16 @@
+~! This is an example of memory modifcation in BYTEIX-BASIC.
+~! Btw: The way the compiler handles this specific sort of operation is just like C, nothing special
+~! All the unique stuff is simply different syntax.
+
+
+int main() =
+{
+    ~! Allocate memory for 32 bit var
+    constant var"Memory Management" = alloca(32)
+        modify_address; ~! Assign the value 42
+            (42)
+            return {Memory Management}; ~! Reads from it
+            printf("{Memory Management}/n"); ~! Prints the value.
+                absolve {Memory Management}; ~! Frees the allocated memory.
+                return 0; End of Integer and program since there are no more integers.
+}

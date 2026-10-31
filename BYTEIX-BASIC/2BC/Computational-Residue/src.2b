@@ -1,0 +1,17 @@
+int main() = {
+    func("Character Translation");
+    if char = (1);
+        printf("on/n")
+    elif char = 0;
+        printf("off/n")
+        return 0;
+}
+
+
+int main(child) = {
+    {Character Translation}; ~! OUTPUT:
+        1, 0, 1, 0, 1/n  ~! on off on off on
+        0, 1, 0, 1, 0/n  ~! off on off on off
+        1, 0, 1, 0, 1/n  ~! on off on off on
+        0, 1, 0, 1, 0/n  ~! off on off on off
+}

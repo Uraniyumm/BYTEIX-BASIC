@@ -1,0 +1,12 @@
+int IO() =
+{
+    if input = ("I like Pizza better than Burgers!");
+        then:
+    printf("Well I like Burgers better than Pizza!/n");
+    elif input = ("I like Burgers better than Pizza!");
+        then:
+    printf("Well I like Pizza better than Burgers!/n");
+        else:
+    printf("Ewwwwwww!!!/n");
+    return 0;
+}

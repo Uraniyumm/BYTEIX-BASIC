@@ -1,0 +1,5 @@
+int main() =
+{
+    printf("A Bad File Manager!/n");
+    return 0;
+}

@@ -1,0 +1,28 @@
+
+~! Arithmitic or however one spells it.
+
+
+int main() =
+{
+    x() = (5)
+        if x() - 4 = 1;
+    printf("x - 4 = 1!/n");
+        else:
+    printf("x - 4 = 0!/n");
+    return 0;
+}
+
+int main(child) =
+~! You can repeat an integer that holds the same data from the original
+~! integer without having to rewrite the code, meaning it can run side by side, without
+~! needing to seperate them, which is like inheritance but a lil bit different.
+
+{
+    y() = (10)
+        if x() > y();
+    printf("x > y/n");
+        else:
+    printf("x < y/n");
+    execparentcode;
+    return 0;
+}

@@ -1,0 +1,13 @@
+~! This is an example of memory address modification.
+~! Again, if you read mm.2b, 2BC handles this the EXACT SAME AS A C COMPILER.
+~! Please do not compile and run this file, this address is simply to give you an idea.
+
+int main() =
+{
+    volatile_uin_t32 address = (0x12345000); ~! Finds Memory Address
+        modify_address;
+            (42) ~! Replaces value with 42
+            return {address}; ~! Reads from it,
+            printf("{address}/n"); ~! Prints adress and value.
+            return 0; End of int/program since there is no more integers.
+} 

@@ -1,0 +1,28 @@
+int main() =
+{
+    age() = (15)
+    constant var"Year of Birth"() = (2011)
+}
+
+int main(child) =
+{
+    edit_age(): (16)
+    printf("Age: {age}/n");
+    printf("Year of Birth: {Year of Birth}/n");
+}
+
+~! Output:
+~! Age: 16
+~! Year of Birth: 2011
+
+~! A subint allows the file to run multiple ints from the same file.
+~! BYTEIX-BASIC prioritizes the int with empty parentheses as the primary int.
+~! It runs the primary int and its children first, then proceeds to subints.
+
+int secondary(subint) =
+{
+    age2() = (16)
+    constant var"Year of Birth"() = (2010)
+    printf("Age: {age}/n");
+    printf("Year of Birth: {Year of Birth}/n");
+}

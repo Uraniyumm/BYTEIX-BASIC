@@ -1,0 +1,47 @@
+~! This is an example of Functions and Returns
+
+
+int main() =
+{
+    func("Adding Variables!"); ~! The string is the assigned name of the function.
+        x() = (5)
+        y() = (3)
+
+        varname = ("varop"); ~! The string is an assigned name of the math thingy.
+            x() + y();
+
+    return {x(), y()}; ~! Return the individual values of x and y.
+    return 0;
+}
+
+~! Let's change it up!
+
+
+int submain(subint) = 
+{
+    {Adding Variables!}; ~! This is calling upon the function, which gives the integer access to the code of the function.
+        n() = (1)
+
+        varname = ("varop2");
+            x() + n();
+
+    return {varop2};
+    return 0;
+}
+
+~! Yes, subintegers can call upon functions from other integers, since functions have a global definition
+
+
+int submain(subchild) =
+{
+    {Adding Variables!};
+        m() = (5) ~! Declaring a new variable, which this subchild, (child of a subint) can access the code of the original function, and it's subint's spin on the code.
+
+        varname = ("varop3") ~! new operation
+        m() + n();
+
+        return {varop3}
+
+            {varop3} + {varop2} ~! 6 + 6 = 12
+                return {varop3 + varop2} ~! Returns 12
+}

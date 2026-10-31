@@ -1,0 +1,1 @@
+g++ -std=c++11 2b-compiler.cpp -o 2BC
